@@ -49,7 +49,7 @@ Input parameters are as follows:
 Final alignment along with the score is returned in
 
 - **global-naiveGap.aln** if mode is **global**
-- **global-affineGap.aln** if mode is aglobal
-- **local-naiveGap.aln** if mode is local
-- **local-affineGap.aln** if mode is alocal
+- **global-affineGap.aln** if mode is **aglobal**
+- **local-naiveGap.aln** if mode is **local**
+- **local-affineGap.aln** if mode is **alocal**
 
