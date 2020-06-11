@@ -2,7 +2,7 @@
 
 Implementation of both global ([Needleman-Wunsch](https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm)) and local ([Smith-Waterman](https://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm)) alignment algorithms with naive and affine gap penalties.
 
-# Primer
+## Primer
 
 In bioinformatics, a **sequence alignment** is a way of arranging the sequences of DNA, RNA, or protein to identify regions of similarity that may be a consequence of functional, structural, or evolutionary **relationships** between the sequences.
 
@@ -10,7 +10,7 @@ In bioinformatics, a **sequence alignment** is a way of arranging the sequences 
 
 The **Smith–Waterman** algorithm performs local sequence alignment; that is, for determining similar regions between two strings of nucleic acid sequences or protein sequences. Instead of looking at the entire sequence, the Smith–Waterman algorithm compares segments of all possible lengths and optimizes the similarity measure. The main difference to the **Needleman–Wunsch** algorithm is that negative scoring matrix cells are set to zero, which renders the (thus positively scoring) local alignments visible. Traceback procedure starts at the highest scoring matrix cell and proceeds until a cell with score zero is encountered, yielding the highest scoring local alignment. 
 
-# Installation
+## Installation
 
 ```bash
 $ git clone https://github.com/salmoor/sequence-alignment.git
@@ -18,7 +18,7 @@ $ cd sequence-alignment
 $ make
 ```
 
-# How to use
+## How to use
 
 Program can run in 4 different modes.
 
