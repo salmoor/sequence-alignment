@@ -39,7 +39,7 @@ Input parameters are as follows:
   - *aglobal:* Needleman-Wunsch with affine gap scoring
   - *alocal:* Smith-Waterman with affine gap scoring
 - **−−input:** Input FASTA file for sequences
-- **−−gapopen:** Gap opening penalty for affine gap model, or unit gap cost for naı̈ve model
+- **−−gapopen:** Gap opening penalty for affine gap model, or unit gap cost for naive model
 - **−−gapext:** Gap extension penalty for affine gap model
 
 
